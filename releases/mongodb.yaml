@@ -10,9 +10,9 @@ metadata:
 spec:
   releaseName: mongodb
   chart:
-    repository: https://kubernetes-charts.storage.googleapis.com/
+    repository: https://kubernetes.oss-cn-hangzhou.aliyuncs.com/charts
     name: mongodb
-    version: 4.9.0
+    version: 0.4.27
   values:
     image:
       repository: bitnami/mongodb
